@@ -4,7 +4,7 @@ import { ReusableComponent } from './Assignment1'
 import { IncDec } from './Assignment2'
 import { Dropdown } from './Dropdown'
 import {Counter} from './Sample'
-import { Focus } from './UseRefUsage'
+import { Focus, TextClear } from './UseRefUsage'
 import { AddNumbers, CheckMatch, ColorChange, Counters, ShowValue, ToggleButton } from './UseStateUsage'
 
 const data = [
@@ -16,13 +16,14 @@ const data = [
 function App() {
   return (
     <>
-    <Focus/>
-    <Counters/>
-    <ShowValue/>
-    <AddNumbers/>
-    <CheckMatch/>
-    <ToggleButton/>
-    <ColorChange/>
+    <TextClear/>
+    {/* <Focus/> */}
+    {/* <Counters/> */}
+    {/* <ShowValue/> */}
+    {/* <AddNumbers/> */}
+    {/* <CheckMatch/> */}
+    {/* <ToggleButton/> */}
+    {/* <ColorChange/> */}
 
 
       {/* {data.map((data) => (
